@@ -1,0 +1,25 @@
+.window {
+    width: 300px;
+    height: 300px;
+}
+
+#kaomojiList {
+    height:200px;
+    overflow-y:scroll;
+}
+
+.ui-icon-delete.btn-danger:after {
+    background-color: #CB1B45;
+}
+
+.ui-page-theme-a .ui-btn:focus {
+    box-shadow: none;
+}
+
+.item-title-name {
+    float: left;
+}
+
+.item-title-cont {
+    float: right;
+}
