@@ -2,14 +2,16 @@
     "manifest_version": 2,
     "name": "顏文字選擇器",
     "description": "方便的輸入顏文字:D",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "icons": {
         "64": "icon.png"
     },
     "permissions": [
         "tabs",
         "storage",
-        "<all_urls>"
+        "<all_urls>",
+        "clipboardRead",
+        "clipboardWrite"
     ],
     "background": {
         "scripts": ["js/jquery-1.11.1.min.js", "js/background.js"],
